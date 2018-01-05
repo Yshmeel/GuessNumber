@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.*?>
+
+<Pane fx:controller="main.yshmeel.yshmeelController" prefHeight="359.0" prefWidth="399.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <children >
+    <Button layoutX="94.0" layoutY="270.0" mnemonicParsing="false" onAction="#startGame" prefHeight="30.27734375" prefWidth="212.0" text="Узнать число компьютера" wrapText="false" />
+    <Label alignment="CENTER" layoutX="0.0" layoutY="50.0" prefHeight="61.27734375" prefWidth="399.0" text="Угадай число компьютера" textAlignment="JUSTIFY">
+      <font>
+        <Font size="19.0" />
+      </font>
+    </Label>
+    <Label alignment="CENTER" layoutX="1.0" layoutY="105.0" prefHeight="83.5" prefWidth="399.0" text="Вам нужно угадать какое число загадал компьютер. Введите число ниже:" textOverrun="CLIP" underline="false" wrapText="false" />
+    <TextField fx:id="number" layoutX="94.0" layoutY="197.0" prefHeight="30.27734375" prefWidth="212.0" />
+  </children>
+  <stylesheets>
+    <URL value="@../assets/application.css" />
+  </stylesheets>
+</Pane>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.*?>
+
+<Pane prefHeight="359.0" prefWidth="399.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="main.yshmeel.yshmeelController">
+  <children>
+    <Label alignment="CENTER" fx:id="gameTitle" layoutX="99.0" layoutY="43.0" prefHeight="43.27734375" prefWidth="191.0" text="Вы выиграли">
+      <font>
+        <Font size="16.0" />
+      </font>
+    </Label>
+    <Label layoutX="113.0" fx:id="computerNumber" layoutY="86.0" prefHeight="40.0" prefWidth="163.0" text="Число компьютера: 1"/>
+    <Label fx:id="yourNumber" layoutX="113.0" layoutY="118.0" prefHeight="25.27734375" prefWidth="141.0" text="Твое число: 2"/>
+    <Button layoutX="111.0" layoutY="221.0" mnemonicParsing="false" onAction="#backToMenu" prefHeight="25.27734375" prefWidth="177.0" text="Назад"/>
+  </children>
+  <stylesheets>
+    <URL value="@../assets/application.css" />
+  </stylesheets>
+</Pane>
